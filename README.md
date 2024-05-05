@@ -1,8 +1,8 @@
-RSAT-AD
+<b>RSAT-AD</b>
  
 Installs RSAT (Remote Server Administration Tools) components related to Active Directory that are not currently installed. It also includes error handling to manage potential issues during the installation process.
 
-Appx Packages
+<b>Appx Packages</b>
 
 PowerShell script to manage Appx packages on Windows. The script creates an allowlist of specific packages and removes any applications that aren't on this list.
 
@@ -16,7 +16,7 @@ PowerShell script to manage Appx packages on Windows. The script creates an allo
 
 This script provides a systematic way to manage Appx packages based on your specified allowlist. Just ensure that the list is comprehensive and accurate to avoid unintended removals.
 
-Remove Windows Bloatware
+<b>Remove Windows Bloatware</b>
 
 This PowerShell script is designed to manage local group policies on Windows machines.
 
