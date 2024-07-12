@@ -1,3 +1,4 @@
+# Requires admin elevation
 function Upgrade-WinGetPackages {
     try {
         # Check for available upgrades and upgrade all packages
