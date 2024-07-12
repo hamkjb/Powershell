@@ -1,12 +1,10 @@
-# Function to upgrade all installed packages using winget
 function Upgrade-WinGetPackages {
-    # Get a list of installed packages
-    $installedPackages = winget list --quiet --sourced --id
-
-    # Loop through each installed package and upgrade it
-    foreach ($package in $installedPackages) {
-        Write-Host "Checking for updates for package: $package"
-        winget upgrade --id $package
+    try {
+        # Check for available upgrades and upgrade all packages
+        winget upgrade --all --source=winget --accept-package-agreements --accept-source-agreements
+    } catch {
+        Write-Host "Failed to upgrade packages."
+        Write-Host $_
     }
 }
 
