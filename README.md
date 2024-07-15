@@ -1,3 +1,8 @@
+<b>Read Me</b>
+
+This repository hosts a collection of PowerShell scripts designed to streamline and automate various administrative tasks. From updating system configurations to removing obsolete software, these scripts are crafted 
+to enhance efficiency and reliability in IT operations. Whether you're a sysadmin or a developer looking to simplify routine tasks, these scripts provide the tools to automate with confidence.
+
 <b>RSAT-AD</b>
  
 Installs RSAT (Remote Server Administration Tools) components related to Active Directory that are not currently installed. It also includes error handling to manage potential issues during the installation process.
