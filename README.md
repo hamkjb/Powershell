@@ -1,4 +1,4 @@
-<b>Read Me</b>
+<b>Purpose of Powershell Repo</b>
 
 This repository hosts a collection of PowerShell scripts designed to streamline and automate various administrative tasks. From updating system configurations to removing obsolete software, these scripts are crafted 
 to enhance efficiency and reliability in IT operations. Whether you're a sysadmin or a developer looking to simplify routine tasks, these scripts provide the tools to automate with confidence.
