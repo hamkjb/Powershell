@@ -5,7 +5,7 @@ $networkAdapters = Get-NetAdapter | ForEach-Object {
     [PSCustomObject]@{
         Name       = $_.Name
         Status     = $_.Status
-        MacAddress = $_.MAC Address
+        MacAddress = $_.MACAddress
         IPAddress  = if ($ipAddress) { $ipAddress } else { "N/A" }
     }
 }
