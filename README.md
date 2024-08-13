@@ -12,6 +12,10 @@ Installs RSAT (Remote Server Administration Tools) components related to Active 
 PowerShell script to manage Appx packages on Windows. The script creates an allowlist of specific packages and removes any applications that aren't on this list.
 This script provides a systematic way to manage Appx packages based on your specified allowlist. Just ensure that the list is comprehensive and accurate to avoid unintended removals.
 
+<h2>Network Adapter Infomation</h2>
+
+To retrieve information about the network adapters, including their names, status, MAC addresses, and associated IPv4 addresses.
+
 <h2>Remove Windows Bloatware</h2>
 
 This PowerShell script is designed to manage local group policies on Windows machines.
