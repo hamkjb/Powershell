@@ -1,7 +1,6 @@
 <h1>Purpose of Powershell Repo</h1>
 
-This repository hosts a collection of PowerShell scripts designed to streamline and automate various administrative tasks. From updating system configurations to removing obsolete software, these scripts are crafted 
-to enhance efficiency and reliability in IT operations. Whether you're a sysadmin or a developer looking to simplify routine tasks, these scripts provide the tools to automate with confidence.
+This repository hosts a collection of PowerShell scripts created to streamline and automate various administrative tasks. Whether you're a sysadmin or a developer looking to simplify routine tasks, these scripts may provide the tools to automate with confidence.
 
 <h2>RSAT-AD</h2>
  
